@@ -1,103 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Student Grievance Portal</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Simple Styling -->
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f4f6f9;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background: #2c3e50;
-            color: white;
-            padding: 15px;
-            text-align: center;
-        }
-        .container {
-            width: 90%;
-            max-width: 800px;
-            margin: 20px auto;
-        }
-        .card {
-            background: white;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        input, textarea, select, button {
-            width: 100%;
-            padding: 10px;
-            margin-top: 10px;
-            border-radius: 5px;
-            border: 1px solid #ccc;
-        }
-        button {
-            background: #3498db;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
-        button:hover {
-            background: #2980b9;
-        }
-        .complaint {
-            background: #ecf0f1;
-            padding: 10px;
-            border-radius: 5px;
-            margin-top: 10px;
-        }
-    </style>
+  <title>Student Grievance Portal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
+<body style="font-family: Arial; text-align:center; margin-top:40px;">
 
-<header>
-    <h1>Student Grievance Portal</h1>
-    <p>Raise and Track Your Complaints</p>
-</header>
+<h1>Student Grievance Portal</h1>
+<p>Submit your complaints online</p>
 
-<div class="container">
-
-    <!-- Login Section -->
-    <div class="card">
-        <h2>Student Login</h2>
-        <input type="text" id="studentName" placeholder="Enter your Name">
-        <input type="text" id="studentId" placeholder="Enter Student ID">
-        <button onclick="loginStudent()">Login</button>
-    </div>
-
-    <!-- Complaint Form -->
-    <div class="card">
-        <h2>Raise a Complaint</h2>
-        <input type="text" id="title" placeholder="Complaint Title">
-        <textarea id="description" rows="4" placeholder="Describe your grievance"></textarea>
-        <select id="category">
-            <option value="">Select Category</option>
-            <option>Academics</option>
-            <option>Hostel</option>
-            <option>Transport</option>
-            <option>Facilities</option>
-            <option>Other</option>
-        </select>
-        <button onclick="submitComplaint()">Submit Complaint</button>
-    </div>
-
-    <!-- Complaint List -->
-    <div class="card">
-        <h2>Submitted Complaints</h2>
-        <div id="complaintList"></div>
-    </div>
-
-</div>
-
-<!-- Link to your existing JS file -->
-<script src="index.js"></script>
+<form>
+  <input type="text" placeholder="Student Name" required><br><br>
+  <textarea placeholder="Enter your grievance" rows="5" cols="30" required></textarea><br><br>
+  <button type="submit">Submit Complaint</button>
+</form>
 
 </body>
 </html>
