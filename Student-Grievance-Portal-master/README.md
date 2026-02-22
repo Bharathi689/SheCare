@@ -1,75 +1,68 @@
-# Student-Grievance-Portal
-Hello Everyone, Contributors to this project are [Aniket Biswas](https://github.com/aniketbiswas21), [Aryaman Grover](https://github.com/Aryaman1706), and [Saurav Shrivastav](https://github.com/Saurav-Shrivastav). 
-We are making this project to ensure that every issue of the students in an institution is heard by the concerned authorities.
-There are certain issues that we need to talk about and get them resolved but are either hesitant to take the issues to higher authorities or the authorities themselves ignore the issue due to lack of response of the students. 
-Here is where our portal comes to the rescue. We have designed this portal where students can report an issue/grievance on the portal and other fellow students can upvote or downvote the issue/grievance as per their understanding/relevance. 
-To monitor all these requests we would give special privileges to what we call "The Student Council". 
-Once an issue/grievance is cross-checked by the students and the student council, the request would be forwarded to the concerned authorities and regular updates would be shared on the platform.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Motivation
-We initiated this project after attending a Bootcamp by Developer Student Club of Thapar University, Patiala.
+## Available Scripts
 
-## Stack used
-* M - MongoDB
-* E - Express
-* R - React.js
-* N - Node.js
+In the project directory, you can run:
 
-We've also used Materialize CSS
+### `npm start`
 
-## Demo 
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-[![Demo video on YouTube](img/demo-readme.png)](https://youtu.be/6Go91-rAxiY)
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-## Installation 
+### `npm test`
 
-### Windows
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-1. Clone the project on your local machine by typing the following command in CMD.
-```bash
-git clone https://github.com/Saurav-Shrivastav/Student-Grievance-Portal.git
-```
+### `npm run build`
 
-2. Navigate to the project folder and run the following command to download the node_modules for the server.
-```bash
-npm i
-```
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-3. Start the server by running the following command
-```bash
-node index.js
-```
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-4. Open a new CMD window and navigate to the Student-Grievance-Portal -> client and run the following commands:
-```bash
-npm install create-react-app
-```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-```bash
-npm install axios --save
-```
+### `npm run eject`
 
-```bash
-npm install react-router-dom --save
-```
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-```bash
-npm install reactjs-popup
-```
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-5. Finally run the following command and a new tab will automatically open in your default browser.
-```bash
-npm start
-```
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-### OS X
-Coming soon!
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-### Linux 
-Coming soon!
+## Learn More
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Please make sure to update tests as appropriate.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
